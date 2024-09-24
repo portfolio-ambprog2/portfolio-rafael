@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.screen{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 10%;
+    box-shadow: 5px 5px 5px 5px rgba(69, 72, 69, 0.493);
+    justify-content: space-between;
+    position: relative;
+}
+
+#logo-u{
+    height: 100px;
+    width: 120px;
+    align-self: center;
+    position: static;
+}
+#grupo{
+    display: flex;
+    position: relative;
+    font-size: 2em;
+    font-family: Arial;
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+    text-shadow: -10px 6px 8px   rgba(68, 67, 71, 0.669);
+}
+.minhas-info{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 600px;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+#info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+main{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 90%;
+    background-color: #ffffff;
+    border: black 1px solid;
+    border-radius: 27px;
+}
+.forms{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+.formacao{
+    height: 30%;
+    width: 100%;
+}
+.formacao > ul{
+    list-style: none;
+    font-family: sans-serif;
+}
+#title{
+    font-size: 1.5em;
+}
+#me{
+    justify-items: center;
+    text-align: justify;    
+}
+#other{
+    display: flex;
+    flex-direction: column;
+    justify-items:baseline;
+    width: 30%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+#reference{ 
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-pessoal{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 60px;
+}
+#foto{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+    bottom: 40px;
+    position: relative;
+}
+#eu{
+    width: 80%;
+    height: 100%;
+    margin-top: 20px;
+    border-radius: 20px ;
+    position: absolute;
+}
+.texto-eu{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bio{
+    width: 90%;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-wrap: wrap;
+    text-align: justify;
+    align-content: center;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 6%;
+    position: fixed;
+    bottom: 0;
+}
